@@ -3,8 +3,8 @@
 }
 
 .logo {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 }
 h1,
 h2,
@@ -34,10 +34,11 @@ ul {
   margin: 0;
   padding-top: 0;
   overflow: hidden;
-  background-color: rgb(58, 58, 58);
+  
 }
 li {
   float: left;
+  
 }
 .rightSide {
   float: right;
@@ -95,4 +96,14 @@ footer,
 video {
   display: block;
   margin: auto;
+}
+
+.mr-auto {
+  
+    position: absolute;
+    padding-left: 40%;
+}
+
+.card-header{
+  color:rgb(43, 43, 43)
 }

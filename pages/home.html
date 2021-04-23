@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Week One HW assignment favorites HTML project -->
+  <!-- Week Two Day Four Bootstrap HW Assignment -->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -14,7 +15,41 @@
     />
   </head>
   <body>
-    <div class="myNavBar">
+    <!-- BOOTSTRAP NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><a
+        class="active"
+        href="https://www.radioshack.com/collections/since-1921/products/retro-radioshack-t-shirt-with-stacked-logo"
+        target="_blank"
+        ><img class="logo" src="../images/logo.jpeg"
+      /></a></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="survey.html">Take My Survey</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cycling.html">Cycling</a>
+          </li>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- ORIGINAL NAV BAR -->
+    <!-- <div class="myNavBar">
       <ul>
         <li>
           <a
@@ -52,7 +87,7 @@
           ><img class="logo" src="../images/shopcart.svg" />
         </li>
       </ul>
-    </div>
+    </div> -->
     <div>
       <h1>Anthony's Favorite Things</h1>
       <p>
@@ -113,14 +148,32 @@
       <br />
       <br />
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
   </body>
   <footer>
-    <div class="myNavBar" class="foot">
+    <div class="card text-center">
+      <div class="card-header">
+        Quote of the Day
+      </div>
+      <div class="card-body">
+        <p class="card-text" style="color: rgb(43, 43, 43);">Utility is when you have one telephone, luxury is when you have two, and paradise is when you have none. - Doug Larson</p>
+        <a href="https://miniwebtool.com/random-quote-generator/" class="btn btn-primary">More Quotes</a>
+      </div>
+    </div>
+    <!-- OLD FOOTER -->
+    <!-- <div class="myNavBar" class="foot">
       <ul>
         <li><a href="survey.html">Take My Survey</a></li>
         <li><a href="cycling.html">Cycling Info</a></li>
         <li><a class="active" href="home.html">Home</a></li>
       </ul>
-    </div>
+    </div> -->
   </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </html>
